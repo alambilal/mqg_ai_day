@@ -1,4 +1,4 @@
-# Simple Website with Video and PDF Downloads
+# MQG AI Day Website
 
 A clean, modern website featuring an embedded Loom video and downloadable PDF resources.
 
