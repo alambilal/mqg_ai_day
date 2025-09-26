@@ -143,6 +143,63 @@ header p {
     box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
 }
 
+/* QR Code Section */
+.qr-section {
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.qr-section h2 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.qr-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.qr-code {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.qr-code:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.qr-code img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.qr-description {
+    color: #7f8c8d;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.qr-url {
+    color: #2c3e50;
+    font-weight: 500;
+    font-size: 0.9rem;
+    font-family: 'Courier New', monospace;
+    background: #f8f9fa;
+    padding: 8px 15px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
 /* Footer */
 footer {
     text-align: center;
