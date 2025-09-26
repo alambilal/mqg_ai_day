@@ -55,6 +55,7 @@ header h1 {
     margin-bottom: 10px;
     font-weight: 600;
     text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+    line-height: 1.2;
 }
 
 header p {
@@ -243,6 +244,7 @@ footer {
     
     header h1 {
         font-size: 2rem;
+        line-height: 1.3;
     }
     
     header p {
@@ -271,6 +273,7 @@ footer {
     
     header h1 {
         font-size: 1.8rem;
+        line-height: 1.3;
     }
     
     .video-section,
