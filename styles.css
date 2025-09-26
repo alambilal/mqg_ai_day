@@ -167,7 +167,8 @@ header p {
     padding: 30px;
     border-radius: 20px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-    max-width: 300px;
+    max-width: 400px;
+    min-width: 320px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -198,6 +199,9 @@ header p {
     padding: 8px 15px;
     border-radius: 20px;
     display: inline-block;
+    word-break: break-all;
+    max-width: 100%;
+    text-align: center;
 }
 
 /* Footer */
@@ -248,7 +252,24 @@ footer {
     }
     
     .video-section,
-    .downloads-section {
+    .downloads-section,
+    .qr-section {
         margin-bottom: 40px;
+    }
+    
+    .qr-code {
+        max-width: 280px;
+        min-width: 250px;
+        padding: 20px;
+    }
+    
+    .qr-code img {
+        width: 160px;
+        height: 160px;
+    }
+    
+    .qr-url {
+        font-size: 0.8rem;
+        padding: 6px 12px;
     }
 }
