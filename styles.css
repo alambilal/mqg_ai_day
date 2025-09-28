@@ -52,7 +52,7 @@ header {
 
 header h1 {
     font-size: 2.5rem;
-    color: #E30613;
+    color: #FF3621;
     margin-bottom: 10px;
     font-weight: 600;
     text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
@@ -72,7 +72,7 @@ header p {
 
 .video-section h2 {
     font-size: 2rem;
-    color: #E30613;
+    color: #FF3621;
     margin-bottom: 30px;
     font-weight: 500;
 }
@@ -102,7 +102,7 @@ header p {
 
 .downloads-section h2 {
     font-size: 2rem;
-    color: #E30613;
+    color: #FF3621;
     margin-bottom: 30px;
     text-align: center;
     font-weight: 500;
@@ -137,7 +137,7 @@ header p {
 
 .download-item h3 {
     font-size: 1.5rem;
-    color: #E30613;
+    color: #FF3621;
     margin-bottom: 15px;
     font-weight: 600;
 }
@@ -150,20 +150,20 @@ header p {
 
 .download-btn {
     display: inline-block;
-    background: linear-gradient(135deg, #E30613 0%, #B8050F 100%);
+    background: linear-gradient(135deg, #FF3621 0%, #E02A15 100%);
     color: white;
     padding: 12px 30px;
     text-decoration: none;
     border-radius: 25px;
     font-weight: 500;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 15px rgba(227, 6, 19, 0.3);
+    box-shadow: 0 4px 15px rgba(255, 54, 33, 0.3);
 }
 
 .download-btn:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(227, 6, 19, 0.4);
-    background: linear-gradient(135deg, #B8050F 0%, #E30613 100%);
+    box-shadow: 0 6px 20px rgba(255, 54, 33, 0.4);
+    background: linear-gradient(135deg, #E02A15 0%, #FF3621 100%);
 }
 
 /* QR Code Section */
@@ -174,7 +174,7 @@ header p {
 
 .qr-section h2 {
     font-size: 2rem;
-    color: #E30613;
+    color: #FF3621;
     margin-bottom: 30px;
     font-weight: 500;
 }
@@ -214,7 +214,7 @@ header p {
 }
 
 .qr-url {
-    color: #E30613;
+    color: #FF3621;
     font-weight: 600;
     font-size: 0.9rem;
     font-family: 'Courier New', monospace;
@@ -225,7 +225,7 @@ header p {
     word-break: break-all;
     max-width: 100%;
     text-align: center;
-    border: 1px solid #E30613;
+    border: 1px solid #FF3621;
 }
 
 /* Footer */
